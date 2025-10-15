@@ -8,6 +8,10 @@
 
 An application for easily viewing the battery levels of Bluetooth devices in the system tray. After launching, the icon will appear in the system tray, and the icon color represents the average battery level of the selected devices. Right-click to display the devices whose battery levels you want to view, and you can also use the settings to choose which battery levels to display.
 
+English user please download "BluetoothBatteryMonitor_eng.exe"
 
+Before launching the .exe file, you need to connect the device you want to display. After launching, right-click on the icon. First, select the device you want to display under "Show/Hide Device Battery". Next, go into "Configure Device Property" to choose the device you want to configure. Please wait a moment for the program to find the device's properties. You will then need to manually specify the property for the battery level. A long list of properties will appear; find the one whose value is most likely the battery level (e.g., a value of 52, while others might be single digits like 0, 1, 3, etc.). Then, click "Save Selection". After another short wait, the battery level will be displayed.
+
+This application runs a bit slowly during startup and setup, so please be patient. Configuring a device once will generate "selected_devices.json" and "user_rules.json" to record the device and its address for display. You will not need to set it up again in the future. Please do not accidentally delete these files.
 
 Contact: s930170280227@yahoo.com
